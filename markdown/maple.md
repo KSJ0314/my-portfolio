@@ -25,7 +25,8 @@ Java로 그래픽을 구현하기 위해 jdk에서 기본적으로 제공해주�
 ---
 
 ## 📕 실행 환경
-해당 프로젝트는 JavaSE-11, Eclipse 2020. 09. 버전으로 제작된 프로젝트입니다.<br/>
+
+해당 프로젝트는 JavaSE-11, Eclipse 2020. 09. 버전으로 제작된 프로젝트입니다.<br />
 GitHub에서 해당 파일을 import하여 실행할 수 있습니다.
 
 ---
@@ -36,7 +37,7 @@ GitHub에서 해당 파일을 import하여 실행할 수 있습니다.
 
 우선 Swing을 어떤식으로 사용하는지 간략하게 소개하도록 하겠습니다.
 
-> javax에 속한 swing은 다음과 같이 import하여 사용할 수 있습니다.
+>javax에 속한 swing은 다음과 같이 import하여 사용할 수 있습니다.
 ```java
 import javax.swing.JFrame;
 ```
@@ -120,6 +121,7 @@ Main panel이 활성화된 후 각종 기능들이 실행됩니다.
 
 * `addKeyListener`를 이용해 각종 키를 눌렀을때 필요한 메서드를 실행합니다.
 
+>
 ```java
 mf.addKeyListener(new KeyAdapter() { // 키 이벤트
 	@Override
@@ -136,6 +138,7 @@ mf.addKeyListener(new KeyAdapter() { // 키 이벤트
 
 * 플레이어와 몬스터의 상태를 계속해서 체크하며 상황에 맞는 각종 메서드들을 실행합니다.
 
+>
 ```java
 while (true) {
 	try {
@@ -156,6 +159,7 @@ while (true) {
 * 플레이어의 모션, 각 몬스터의 모션, 스킬의 재사용 대기 등은 동시에 발생해야 합니다. (1번 몬스터가 움직임에 따라 다른 요소들이 정지하면 안됩니다.)
 * 따라서 각 요소들을 Thread로 관리하여 동시 실행을 구현해줍니다. 
 
+>
 ```java
 void aSkill(MyFrame mf) {
 	Thread tr = new Thread() {
@@ -170,6 +174,7 @@ void aSkill(MyFrame mf) {
 * 플레이어, 몬스터, 스킬창(재사용 대기)등의 JLabel들은 상태에 따라 다양한 이미지를 가집니다.
 * swing의 ImageIcon객체와 JLabel의 `setIcon()`을 이용해 이미지를 변경합니다.
 
+>
 ```java
 ~~~
 public ImageIcon stand0 = new ImageIcon(MyFrame.class.getResource("../pl_image/stand0.gif"));
@@ -191,9 +196,9 @@ public Player() {
 
 ## ✨ 보완 사항
 
-프로젝트 평가 당시 코로나를 심하게 앓아서 개발 기간이 부족했습니다.<br/>
-당시 아직 배우지 못했던 기능도 있었습니다.<br/>
-다음은 미처 구현하지 못한 구상 단계의 내용입니다.<br/>
+프로젝트 평가 당시 코로나를 심하게 앓아서 개발 기간이 부족했습니다. <br />
+당시 아직 배우지 못했던 기능도 있었습니다. <br />
+다음은 미처 구현하지 못한 구상 단계의 내용입니다. <br />
 
 1) 회원가입 : Login 화면에서 DB를 연동
 2) 캐릭터 생성 : CharSelect 화면에서 DB를 연동
