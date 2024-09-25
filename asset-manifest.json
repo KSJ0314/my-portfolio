@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.022d8f5d.css",
+    "main.css": "/my-portfolio/static/css/main.826f9657.css",
     "main.js": "/my-portfolio/static/js/main.616a3fbd.js",
     "static/js/592.6647c214.chunk.js": "/my-portfolio/static/js/592.6647c214.chunk.js",
     "static/media/Pretendard-Black.woff": "/my-portfolio/static/media/Pretendard-Black.c51355ddc1caec596031.woff",
@@ -40,12 +40,12 @@
     "static/media/Pretendard-ExtraLight.subset.woff2": "/my-portfolio/static/media/Pretendard-ExtraLight.subset.efbe2ffcea89d7a5bcf6.woff2",
     "static/media/Pretendard-Thin.subset.woff2": "/my-portfolio/static/media/Pretendard-Thin.subset.24952e0aab525b73031b.woff2",
     "index.html": "/my-portfolio/index.html",
-    "main.022d8f5d.css.map": "/my-portfolio/static/css/main.022d8f5d.css.map",
+    "main.826f9657.css.map": "/my-portfolio/static/css/main.826f9657.css.map",
     "main.616a3fbd.js.map": "/my-portfolio/static/js/main.616a3fbd.js.map",
     "592.6647c214.chunk.js.map": "/my-portfolio/static/js/592.6647c214.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.022d8f5d.css",
+    "static/css/main.826f9657.css",
     "static/js/main.616a3fbd.js"
   ]
 }
