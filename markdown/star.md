@@ -1,3 +1,5 @@
+![](https://velog.velcdn.com/images/ksj0314/post/a4443ae9-6acb-4703-97fd-c35eb96ab592/image.png)
+
 ## 📗 프로젝트 개요
 
 * 본 프로젝트는 6개월간의 국비 교육 과정을 마무리하며 진행된 팀 프로젝트입니다.
