@@ -161,7 +161,7 @@ Firebase를 이용하여 구현한 게시판 메뉴입니다.
 * 정적 웹사이트 호스팅 서비스를 이용하면 프로젝트를 간편하게 빌드, 배포할 수 있으나 데이터를 저장, 조회하는 등의 백엔드 로직은 따로 구현하여 연결해야 합니다.
 
 * 서버를 직접 개발하여 관리할 정도로 대규모 프로젝트가 아니기에 BaaS중 하나인 Firebase를 이용하여 방명록과 방문자 수를 구현하였습니다.<br/>
-[>> [React] Firebase를 이용해 게시판 만들기](https://velog.io/@ksj0314/React-Firebase%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EA%B2%8C%EC%8B%9C%ED%8C%90-%EB%A7%8C%EB%93%A4%EA%B8%B0)
+[>> [React] Firebase를 이용해 게시판 만들기](https://velog.io/@ksj0314/React-Firebase%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EA%B2%8C%EC%8B%9C%ED%8C%90-%EB%A7%8C%EB%93%A4%EA%B8%B0)<br/>
 [>> [React] 페이지 방문자 수 구현하기](https://velog.io/@ksj0314/React-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%B0%A9%EB%AC%B8%EC%9E%90-%EC%88%98-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
 
 #### 3. useState
