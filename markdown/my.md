@@ -145,26 +145,79 @@ Firebase를 이용하여 구현한 게시판 메뉴입니다.
 
 ![](https://velog.velcdn.com/images/ksj0314/post/801e8014-55f4-42be-a580-1811fd85987e/image.png)
 
-***
+---
 
-### 3. GitHub Pages
+## 📕 사용기술
 
-정적 웹사이트 호스팅 서비스중 하나인 깃허브 페이지를 이용하여 프로젝트를 배포하였습니다.
+#### 1. GitHub Pages
 
-`gh-pages` 패키지를 install하여 프로젝트의 빌드, 배포를 자동으로 도와줍니다.
+* 정적 웹사이트 호스팅 서비스중 하나인 깃허브 페이지를 이용하여 프로젝트를 배포하였습니다.
 
-[>> [React] gh-pages를 이용한 페이지 빌드-배포](https://velog.io/@ksj0314/React-gh-pages%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0)
+* `gh-pages` 패키지를 install하여 프로젝트의 빌드, 배포를 자동으로 도와줍니다.<br/>
+[>> [React] gh-pages를 이용한 웹 페이지 빌드-배포](https://velog.io/@ksj0314/React-gh-pages%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0)
 
-***
+#### 2. Firebase
 
-### 4. Firebase
+* 정적 웹사이트 호스팅 서비스를 이용하면 프로젝트를 간편하게 빌드, 배포할 수 있으나 데이터를 저장, 조회하는 등의 백엔드 로직은 따로 구현하여 연결해야 합니다.
 
-정적 웹사이트 호스팅 서비스를 이용하면 프로젝트를 간편하게 빌드, 배포할 수 있으나 데이터를 저장, 조회하는 등의 백엔드 로직은 따로 구현하여 연결해야 합니다.
-
-서버를 직접 개발하여 관리할 정도로 대규모 프로젝트가 아니기에 BaaS중 하나인 Firebase를 이용하여 방명록과 방문자 수를 구현하였습니다.
-
-[>> [React] Firebase를 이용해 게시판 만들기](https://velog.io/@ksj0314/React-Firebase%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EA%B2%8C%EC%8B%9C%ED%8C%90-%EB%A7%8C%EB%93%A4%EA%B8%B0)
+* 서버를 직접 개발하여 관리할 정도로 대규모 프로젝트가 아니기에 BaaS중 하나인 Firebase를 이용하여 방명록과 방문자 수를 구현하였습니다.<br/>
+[>> [React] Firebase를 이용해 게시판 만들기](https://velog.io/@ksj0314/React-Firebase%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EA%B2%8C%EC%8B%9C%ED%8C%90-%EB%A7%8C%EB%93%A4%EA%B8%B0)<br/>
 [>> [React] 페이지 방문자 수 구현하기](https://velog.io/@ksj0314/React-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%B0%A9%EB%AC%B8%EC%9E%90-%EC%88%98-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0)
+
+#### 3. useState
+* 변수의 저장, 변경을 위해 사용하였습니다.
+
+#### 4. useEffect
+* Lifecycle을 관리하기 위해 사용하였습니다.
+의존성 배열을 적절히 사용하여 여러 생명주기를 간편하게 관리할 수 있습니다.
+
+#### 5. useLayoutEffect
+* useEffect와 비슷하게 렌더링후 작동하지만 paint되기 전 동기적으로 먼저 실행됩니다.
+* 프로젝트에서 컴포넌트의 크기를 측정할 때에 사용하였습니다.
+
+#### 6. requestAnimationFrame
+* useLayoutEffect는 DOM이 변경되었지만 레이아웃이나 스타일 계산이 완료되기 전일 수 있습니다.
+* requestAnimationFrame을 사용하면 계산이 완료되고 repaint되기 직전에 작동하여 컴포넌트의 크기를 측정하는 등의 작업에 적합하여 useLayoutEffect안에서 함께 사용하였습니다.
+
+#### 7.useRef
+* 렌더링을 발생시키지 않는 변수의 사용이나 컴포넌트 내부 요소를 조작할 때 사용하였습니다.
+
+#### 8. forwardRef
+* 부모 컴포넌트에게 컴포넌트 내부 요소의 참조를 전달하려고 할 때 사용하였습니다.
+
+#### 9. useImperativeHandle
+* 컴포넌트의 내부 요소를 해당 컴포넌트와 부모 컴포넌트 모두 조작할 때 사용하였습니다.
+* 부모 컴포넌트에 값이나 함수를 전달할 수 있습니다.
+
+#### 10. useContext
+* 컴포넌트 내부에서 전역적인 상태관리를 위해 사용하였습니다.
+
+#### 11. useMemo
+* 불필요한 재계산을 방지하고 결과값을 재사용하기 위해 사용합니다.
+
+#### 12. Styled-Component
+* 계층적인 디자인 구조와 변수를 사용한 디자인을 위해 사용하였습니다.
+
+#### 13. ThemeProvider
+* 다크 모드, 모바일 모드 등 전체적인 디자인 변화를 위해 사용하였습니다.
+
+#### 14. ReactMarkdown
+* 마크다운 파일을 렌더링하기 위해 사용하였습니다.
+
+#### 15. YTPlayer
+* react-youtube 라이브러리를 이용한 유튜브 플레이어입니다.
+* 배경음악을 재생하기 위해 사용하였습니다.
+
+#### 16. react-bootstrap
+* Bootstrap에서 제공하는 리액트 라이브러리로 Carousel 기능을 사용하였습니다.
+
+#### 17. ReactDOM.createPortal
+* 컴포넌트의 내부 요소를 DOM계층 외부에서 렌더링하기 위해 사용합니다.
+* position fixed된 팝업창의 index 문제로 인해 사용하였습니다.
+
+
+React 학습 내용을 확인하시려면 아래 링크를 참고해주세요.<br/>
+[>> React 학습 정리 바로가기](https://velog.io/@ksj0314/series/React)
 
 ---
 
