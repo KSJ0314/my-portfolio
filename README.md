@@ -215,6 +215,9 @@ Firebase를 이용하여 구현한 게시판 메뉴입니다.
 * 컴포넌트의 내부 요소를 DOM계층 외부에서 렌더링하기 위해 사용합니다.
 * position fixed된 팝업창의 index 문제로 인해 사용하였습니다.
 
+React 학습 내용을 확인하시려면 아래 링크를 참고해주세요.
+[>> React 학습 정리 바로가기](https://velog.io/@ksj0314/series/React)
+
 ---
 
 ## 📓 시행착오
