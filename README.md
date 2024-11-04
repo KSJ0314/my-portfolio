@@ -1,5 +1,8 @@
 ![](https://velog.velcdn.com/images/ksj0314/post/7dcc9359-dab1-42bc-824a-d65c7efb8810/image.png)
 
+[>> 포트폴리오 바로가기](https://ksj0314.github.io/my-portfolio/)
+
+***
 
 ## 📗 프로젝트 개요
 
