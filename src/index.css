@@ -1,0 +1,103 @@
+*:not(.markdown *){
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+}
+
+h2{
+  margin: 0.5rem 0 !important;
+  font-size: 1.5em !important;
+  line-height: 2 !important;
+  font-weight: 600;
+}
+h3{
+  margin: 0.5rem 0 !important;
+  font-size: 1.3em !important;
+  line-height: 2 !important;
+  font-weight: 600;
+}
+h4{
+  margin: 0.5rem 0 !important;
+  font-size: 1.15em !important;
+  line-height: 2 !important;
+  font-weight: 600;
+}
+body {
+  margin: 0;
+  font-family: Pretendard, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: calc(var(--vh, 1vh) * 100) !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.markdown img{
+  max-width: 100%;
+}
+
+.markdown a{
+  text-decoration: none;
+  color: green;
+}
+.markdown:is(.dark) a{
+  color: greenyellow;
+}
+
+.markdown p{
+  padding: 0;
+  margin: 0;
+}
+
+.markdown > p{
+  margin: 1em 0;
+}
+
+.markdown li+li{
+  margin-top: 1em;
+}
+
+.markdown pre:not(.backtick, .codeRefer),
+.markdown blockquote {
+  margin: 0;
+  padding: 1em;
+  border-width: 0.3vw;
+  border-left-style: solid;
+  border-color: greenyellow;
+  background-color: #f8f9fa;
+}
+
+.markdown:is(.dark) pre:not(.backtick, .codeRefer),
+.markdown:is(.dark) blockquote {
+  background-color: #c5c5c5 !important;
+}
+
+.markdown .codeRefer{
+  background-color: #fbfcfd !important;
+}
+.markdown:is(.dark) .codeRefer{
+  background-color: #c5c5c5 !important;
+}
+
+.markdown .backtick{
+  display: inline !important;
+  padding: 0em !important;
+  background: none !important;
+}
+
+.markdown .backtick > code{
+  background-color: #e9ecef;
+  padding: 0.2em 0.4em;
+  border-radius: 0.3vw;
+}
+.markdown:is(.dark) .backtick > code{
+  background-color: #d4d1d1;
+}
