@@ -1,0 +1,134 @@
+[
+    {
+        "id": "0",
+        "icon": "/images/project/myIcon.png",
+        "title": "나의 포트폴리오",
+        "date": "2024. 04. ~",
+        "summary": [
+            "<span>React를 이용해 제작한 저를 소개하는 사이트</span>입니다.",
+            "리액트를 독학한 후 처음으로 진행한 프로젝트로 프론트엔드 개발자라는 꿈을 가지게 된 프로젝트입니다."
+        ],
+        "detail": [
+            "리액트의 다양한 기능을 학습하는 것을 목표로 제작하였습니다.",
+            "깃허브 페이지 서비스를 이용해 빌드-배포 되었습니다.",
+            "Firebase를 이용하여 방문자 수, 방명록이 구현 되었습니다.",
+            "OKKY 등의 사이트에서 피드백을 받아 지속적으로 개선해가고 있습니다."
+        ],
+        "url": {
+            "이력서": "https://ksj0314.github.io/",
+            "GitHub": "https://github.com/KSJ0314/my-portfolio",
+            "Velog": "https://velog.io/@ksj0314/My-portfolio"
+        },
+        "skill": [
+            "React",
+            "Firebase",
+            "Bootstrap"
+        ],
+        "image": [
+            "/images/project/my0.png",
+            "/images/project/my1.png",
+            "/images/project/my2.png",
+            "/images/project/my3.png",
+            "/images/project/my4.png",
+            "/images/project/my5.png",
+            "/images/project/my6.png",
+            "/images/project/my7.png",
+            "/images/project/my8.png"
+        ]
+    }, {
+        "id": "1",
+        "icon": "/images/project/starIcon.png",
+        "title": "우리 동네 리뷰모음",
+        "date": "2023. 10. ~ 2023. 12.",
+        "summary": [
+            "<span>카테고리의 제약 없이 원하는 장소에 대해 자유롭게 리뷰를 작성하고 볼 수 있는 사이트</span>입니다.",
+            "MVC2 패턴의 활용을 중점으로 한 JSP 프로젝트입니다."
+        ],
+        "detail": [
+            "오픈 API를 이용하여 로그인, 주소 변경등을 구현했습니다.",
+            "좋아요 등의 기능을 위해 ajax를 사용했습니다.",
+            "상단 카테고리를 클릭해 출력되는 리뷰를 변경했으나 페이지가 리로딩되는 방식때문에 아쉬움이 컸습니다.\n리액트를 적용한다면 해당 문제를 해결할 수 있을 것 같습니다."
+        ],
+        "url": {
+            "GitHub": "https://github.com/KSJ0314/Star",
+            "Velog": "https://velog.io/@ksj0314/%EB%B3%84%EB%8B%A4%EB%B3%84-%EC%9A%B0%EB%A6%AC%EB%8F%99%EB%84%A4-%EB%A6%AC%EB%B7%B0-%EB%AA%A8%EC%95%84%EB%B3%B4%EA%B8%B0"
+        },
+        "skill": [
+            "JSP",
+            "MySQL",
+            "CSS",
+            "JavaScript",
+            "API"
+        ],
+        "image": [
+            "/images/project/star0.png",
+            "/images/project/star1.png",
+            "/images/project/star2.png",
+            "/images/project/star3.png",
+            "/images/project/star4.png",
+            "/images/project/star5.png",
+            "/images/project/star6.png",
+            "/images/project/star7.png"
+        ]
+    }, {
+        "id": "2",
+        "icon": "/images/project/whatIcon.png",
+        "title": "오늘 뭐먹지?",
+        "date": "2023. 07. ~ 2023. 08.",
+        "summary": [
+            "<span>현재 날씨에 따라 반경 내의 식당을 추천해주는 사이트</span>입니다.",
+            "오픈 API의 사용법을 익히게 된 프로젝트입니다."
+        ],
+        "detail": [
+            "처음 진행한 팀 프로젝트로 팀원과의 협업을 주된 목표로 진행했습니다.\n노력 끝에 수상이라는 성과도 얻을 수 있었습니다.",
+            "기상청의 날씨 API와 카카오의 로컬 API를 이용했습니다.",
+            "오픈 API에서 제공하는 예시 코드를 가져오고 응답값을 console에 출력하여 확인해 가며 필요한 값만 사용하여 제작했습니다."
+        ],
+        "url": {
+            "사이트": "https://cmkj0314.neocities.org/",
+            "GitHub": "https://github.com/KSJ0314/What_to_eat_today",
+            "Velog": "https://velog.io/@ksj0314/j3yrq4nx"
+        },
+        "skill": [
+            "API",
+            "HTML",
+            "JavaScript",
+            "CSS",
+            "Bootstrap"
+        ],
+        "image": [
+            "/images/project/what0.png",
+            "/images/project/what1.png",
+            "/images/project/what2.png"
+        ]
+    }, {
+        "id": "3",
+        "icon": "/images/project/mapleIcon.png",
+        "title": "Mini-MapleStory",
+        "date": "2023. 08.",
+        "summary": [
+            "<span>Java의 Class 구조의 학습 평가</span>를 위한 개인 프로젝트입니다.",
+            "상속의 개념을 활용하기 위해 '게임'이라는 주제를 선정했습니다."
+        ],
+        "detail": [
+            "오직 자바만을 사용하는 과제이기에 GUI 구현을 위해 Swing 라이브러리가 사용되었습니다.",
+            "Swing의 JFrame, JPanel등을 상속받아 장면을 구현했습니다.",
+            "몬스터, 스킬등의 뼈대 클래스를 만들어 여러 종류의 몬스터, 스킬등에 상속하여 사용했습니다.",
+            "Thread를 사용하여 각 객체들의 개별적인 움직임 등을 구현했습니다.",
+            "'Launch4j'를 이용하여 export하여 파일(.exe)로 실행이 가능합니다."
+        ],
+        "url": {
+            "GitHub": "https://github.com/KSJ0314/Mini-MapleStory",
+            "Velog": "https://velog.io/@ksj0314/Mini-MapleStory"
+        },
+        "skill": [
+            "Java"
+        ],
+        "image": [
+            "/images/project/maple0.png",
+            "/images/project/maple1.png",
+            "/images/project/maple2.png",
+            "/images/project/maple3.png"
+        ]
+    }
+]
