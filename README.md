@@ -1,3 +1,5 @@
+![Java](https://img.shields.io/badge/Java-OpenJDK%2021-black?logo=openjdk&logoColor=white)![Swagger](https://img.shields.io/badge/Swagger-API-green?logo=swagger&logoColor=white)![Gradle](https://img.shields.io/badge/Gradle-8.7-02303A?logo=gradle)![MySQL](https://img.shields.io/badge/MySQL-8.0.34-00758F?logo=mysql&logoColor=white)![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python)![AnyLogic](https://img.shields.io/badge/AnyLogic-8.9-00BFFF)
+
 ![](https://velog.velcdn.com/images/ksj0314/post/7dcc9359-dab1-42bc-824a-d65c7efb8810/image.png)
 
 [>> 포트폴리오 바로가기](https://ksj0314.github.io/my-portfolio/)
