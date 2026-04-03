@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styled, {keyframes} from "styled-components";
+import about from "../../../data/about.json";
 
 const Title = styled.div`
     width: 100%;
@@ -134,7 +135,7 @@ const Help = styled.div`
 `;
 
 function About0(props) {
-    const text = "저의 포트폴리오에 오신걸\n 환영합니다!";
+    const text = about[0].text[0];
     const [displayText, setDisplayText] = useState('');
 
     useEffect(() => {

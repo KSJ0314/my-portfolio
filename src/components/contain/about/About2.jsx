@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styled, {keyframes} from "styled-components";
+import about from "../../../data/about.json";
 
 const Title = styled.div`
     width: 100%;
@@ -143,11 +144,7 @@ const Door = styled.div`
 `;
 
 function About2(props) {
-    const text = [
-        "\" 안되는 기능은 없다,\n아직 못한 것 뿐이다! \"\n저의 좌우명이에요.",
-        "안되는 기능도 포기하지 않는\n끈기있는 개발자가 되겠습니다.",
-        "저에 대해 더 알고 싶으시면\n우측의 페이지 리스트를\n선택해주세요."
-    ];
+    const text = about[2].text;
     const [displayText, setDisplayText] = useState('');
     const [textEnd, setTextEnd] = useState(false);
     const [textIndex, setTextIndex] = useState(0);

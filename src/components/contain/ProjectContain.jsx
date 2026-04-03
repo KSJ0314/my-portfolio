@@ -25,6 +25,14 @@ const Main = styled.div`
             font-size: 1.3em;
         `
     };
+    @media (min-width: 1441px) {
+        grid-template-columns: repeat(4, 1fr);
+        font-size: 0.8em;
+    }
+    @media (min-width: 1921px) {
+        grid-template-columns: repeat(5, 1fr);
+        font-size: 0.7em;
+    }
     grid-auto-rows: min-content;
     align-items : center;
     grid-gap: 5% 2.5%;
@@ -40,6 +48,18 @@ const Icon = styled.div`
     border-radius: 2vw !important;
     padding: 0.2vw;
 
+    @media (min-width: 1441px) {
+        grid-template-columns: repeat(4, 1fr);
+        font-size: 0.9em;
+        border-radius: 1.5vw !important;
+    }
+    @media (min-width: 1921px) {
+        grid-template-columns: repeat(5, 1fr);
+        font-size: 0.8em;
+        border-radius: 1vw !important;
+        border: 0.15vw solid ${({theme}) => theme.darkTheme.bg2} !important;
+    }
+
     & > img{
         border: 0.2vw solid ${({theme}) => theme.darkTheme.bg2} !important;
         background-color: ${({theme}) => theme.darkTheme.bg_mobile_container};
@@ -48,6 +68,14 @@ const Icon = styled.div`
         display: block;
         padding: 5%;
         border-radius: 0;
+        
+        @media (min-width: 1441px) {
+            border-radius: 1.3vw !important;
+        }
+        @media (min-width: 1921px) {
+            border: 0.15vw solid ${({theme}) => theme.darkTheme.bg2} !important;
+            border-radius: 0.8vw !important;
+        }
     }
 
     & > .title{

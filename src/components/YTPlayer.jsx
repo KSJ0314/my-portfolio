@@ -121,7 +121,7 @@ function YTPlayer(props) {
     const [videoName, setVideoName] = useState(musics[currentTrack].playName);
     const [listOn, setListOn] = useState(false);
     const [readyDelay, setReadyDelay] = useState(true);
-    const [autoplayState, setAutoplayState] = useState(0);
+    const [autoplayState, setAutoplayState] = useState(1);
     
     useEffect(() => {
         setVideoId(musics[currentTrack].youtubeIDs);
@@ -161,7 +161,7 @@ function YTPlayer(props) {
     }
 
     const selectVideo = (num) => {
-        setAutoplayState(1);
+        setAutoplayState(1); 
         setCurrentTrack(num);
     }
 

@@ -208,7 +208,6 @@ function Profile(props) {
                     <option value="">바로가기</option>
                     <option value="https://github.com/KSJ0314">GitHub</option>
                     <option value="https://velog.io/@ksj0314/series">Velog</option>
-                    <option value="https://ksj0314.github.io/">이력서</option>
                 </ LinkUrl>
             </Main>
             <ToggleButton onClick={props.profileCloseToggle} profileClose={props.profileClose}/>

@@ -48,6 +48,7 @@ const Item = styled.div`
 
     & .title{
         font-weight: 500;
+        word-break: keep-all;
     }
 
     & .sub{

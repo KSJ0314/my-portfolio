@@ -167,7 +167,7 @@ function Help(props) {
             <Close onClick={()=>setClose(true)}>X</Close>
             <Link>
                 <div className="border"></div>
-                <div className="text">GitHub, Velog, 이력서 사이트로 바로가기할 수 있어요</div>
+                <div className="text">GitHub, Velog로 바로가기할 수 있어요</div>
             </Link>
             <Page>
                 <div className="border"></div>

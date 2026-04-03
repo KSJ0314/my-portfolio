@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styled, {css, keyframes} from "styled-components";
+import about from "../../../data/about.json";
 
 const Title = styled.div`
     width: 100%;
@@ -162,10 +163,7 @@ const Door = styled.div`
 `;
 
 function About1(props) {
-    const text = [
-        "개발은 끝이 없다!",
-        "배울수록 배울게 많은 개발!\n끝 없는 성장을 위해\n꾸준히 노력하겠습니다."
-    ];
+    const text = about[1].text;
     const [displayText, setDisplayText] = useState('');
     const [textEnd, setTextEnd] = useState(false);
     const [textIndex, setTextIndex] = useState(0);

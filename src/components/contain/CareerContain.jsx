@@ -52,6 +52,7 @@ const Item = styled.div`
         flex-shrink: 0;
         font-size: 1.3em;
         width: 28%;
+        white-space: pre-line;
     }
     
     & > div:first-child{
@@ -63,6 +64,7 @@ const Item = styled.div`
 
     & .title{
         font-weight: 500;
+        word-break: keep-all;
     }
 
     & .sub{
